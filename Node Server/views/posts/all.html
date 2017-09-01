@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>All Posts</title>
+</head>
+<body>
+<div style="width: 60%; margin: auto">
+	{{ header }}
+	<h1>All Posts</h1>
+	{% for (post in posts) %}
+		<div>
+			<h2>{% post.title %}</h2>
+			<p>{% post.description %}</p>
+		</div>
+	{% endfor %}
+</div>
+</body>
+</html>

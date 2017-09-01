@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>All Posts</title>
+</head>
+<body>
+<div style="width: 60%; margin: auto">
+	{{ header }}
+	<h1>All Users</h1>
+	{% for (user in users) %}
+		<div>
+			<h2>{% user.name %}</h2>
+			<p>{% user.age %}</p>
+		</div>
+	{% endfor %}
+</div>
+</body>
+</html>
