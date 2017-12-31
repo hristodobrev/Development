@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    font-size: 16px;
+}
+
+header {
+    border-bottom: 1px solid #ddd;
+}
+
+header > nav {
+
+}
+
+header > nav > ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+header > nav > ul > li {
+    display: inline-block;
+}
+
+header > nav > ul > li > a {
+    text-decoration: none;
+    color: #888;
+    display: inline-block;
+    padding: 15px;
+}
+
+header > nav > ul > li > a:hover {
+    color: #222;
+}
+
+ul#messages {
+    margin: 10px;
+}
+
+ul#messages li {
+    display: block;
+    border-radius: 5px;
+    width: 40%;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+}
+
+ul#messages li.error {
+    border: 1px solid #ff8873;
+    background: #ffd0c8;
+}
+
+ul#messages li.info {
+    border: 1px solid #a9bad5;
+    background: #cbdcff;
+}
+
+main {
+    padding: 30px;
+}
+
+main > form {
+    width: 400px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin: auto;
+    padding: 20px;
+    clear: both;
+}
+
+main > form input {
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+main > form input:focus {
+    outline: none;
+    border: 1px solid #777;
+}
+
+main > form input[type="submit"] {
+    height: 30px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+main > form input[type="submit"]:hover {
+    border: 1px solid #777;
+    cursor: pointer;
+}
+
+main > form .form-row {
+    text-align: center;
+}
+
+main > form .form-row:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+main > form label {
+    width: 35%;
+    display: inline-block;
+    text-align: right;
+    padding-right: 10px;
+}
+
+main > form .field {
+    width: 50%;
+    display: inline-block;
+}
+
+footer {
+    border-top: 1px solid #ddd;
+    padding: 5px;
+    text-align: center;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}

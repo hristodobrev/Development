@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: content-box;
+}
+
+.panel {
+    max-width: 850px;
+    margin: 20px auto;
+}
+
+.form-group {
+    width: 40%;
+    margin: 1% 4.5%;
+    display: inline-block;
+}
+
+.form-group label {
+    float: left;
+}
+
+.form-group input, .form-group select {
+    float: right;
+}
+
+.form-group-checkbox {
+    width: 40%;
+    margin: 1% 4.5%;
+    display: inline-block;
+    text-align: left;
+}
+
+.form-group-checkbox label {
+    float: none;
+    margin-right: 5%;
+}
+
+.form-group-checkbox input, .form-group select {
+    float: none;
+}
+
+.info {
+    padding: 0.5em;
+    color: green;
+    background: #b3ffac;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+.error {
+    padding: 0.5em;
+    color: red;
+    background: #ffb5b3;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #d3d3d3;
+    padding: 0 0.2em;
+}

@@ -1,0 +1,29 @@
+body {
+    background: red;
+}
+
+div.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+div.product-container {
+    box-shadow: 1px 1px 5px #333;
+    background: #777;
+}
+
+div.container div.product-container div.product-name {
+
+}
+
+div.container div.product-container div.product-price {
+
+}
+
+div.container div.product-container div.product-description {
+
+}
+
+div.container div.product-container div.product-footer {
+
+}

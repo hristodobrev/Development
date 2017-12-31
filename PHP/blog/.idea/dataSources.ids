@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - blog@localhost" uuid="fbeb3506-6d73-4d1f-9435-06d9b7615ec7">
+    <database-info product="MySQL" version="5.5.5-10.1.13-MariaDB" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+      <schema id="1" name="blog">
+        <visible>1</visible>
+      </schema>
+      <schema id="2" name="controlsystem"/>
+      <schema id="3" name="information_schema"/>
+      <schema id="4" name="jordanpe_military"/>
+      <schema id="5" name="laravel"/>
+      <schema id="6" name="mysql"/>
+      <schema id="7" name="performance_schema"/>
+      <schema id="8" name="phpmyadmin"/>
+      <schema id="9" name="test"/>
+      <schema id="10" name="umvcc"/>
+      <schema id="11" name="world"/>
+    </database-model>
+  </data-source>
+</component>

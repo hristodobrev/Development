@@ -1,0 +1,42 @@
+header {
+	border-bottom: 1px solid #d3d3d3;
+}
+
+header nav ul {
+	list-style: none;
+	margin: 0;
+}
+
+header nav ul li {
+	display: inline-block;
+}
+
+header nav ul li a {
+	display: inline-block;
+	padding: 5px;
+	text-decoration: none;
+	color: #333;
+}
+
+header nav ul li a:hover {
+	color: #373;
+}
+
+ul.side-nav {
+	list-style: none;
+	width: 30%;
+	float: left;
+}
+
+ul.side-nav li:hover {
+	background: rgba(0,0,0,0.02);
+}
+
+#img-field {
+	float: left;
+	width: 65%;
+}
+
+#img-field #img {
+	max-width: 100%;
+}
